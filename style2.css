@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+img {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+.logo, .Top_menu {
+    margin-right: 25px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.Top_menu li {
+    margin-right: 25px;
+        font-family: arial;
+    font-size: 15px;
+    color: darkred;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Top_menu a {
+    vertical-align: middle;
+    font-family: arial;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.logo h1{
+    vertical-align: middle;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+}
+
+.Top_menu a:hover {
+    color: darkred;
+}
+
+
+
+#container {
+            text-align: center;
+            margin: 20px;
+        }
+        #message {
+            font-size: 24px;
+            margin: 10px;
+        }
+        #buttons {
+            margin: 15px;
+        }
+        .card {
+            width: 100px;
+            height: 150px;
+            margin: 15px;
+        }
+        #playerHand, #dealerHand {
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+
+
+#beta {
+    text-align: center;
+    animation: beta 1s ease-in-out infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes beta{
+    from {
+        color: white;
+
+    }
+    to{
+        color: red;
+    }
+}
+
+#dbz {
+    position: absolute;
+    margin-left: 950px;
+}
+
+.vh {
+
+    position: absolute;
+    margin-left: 70px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+.vh1 {
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 40px;
+    border-radius: 5px 5px 5px 5px;
+
+}
+
+.vh2 {
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: 70px;
+}
